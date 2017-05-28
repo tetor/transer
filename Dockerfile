@@ -10,4 +10,4 @@ RUN apt-get update
 
 RUN go get github.com/spf13/cobra/cobra
 
-CMD ["go", "run", "main.go"]
+CMD ["go", "run", "cmd/transer.go"]
